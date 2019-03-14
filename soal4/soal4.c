@@ -41,7 +41,7 @@ int main() {
 	int a=0;
 	while(1){
 		struct stat info;
-		stat("/home/mlr/Documents/makanan/makanan_enak.txt", &info);
+		stat("/home/mlr/Documents/makanan/makan_enak.txt", &info);
 		time_t rawtime;
 		rawtime=time(&rawtime);
 		if(rawtime-info.st_atime<=30){
