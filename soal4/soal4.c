@@ -35,7 +35,7 @@ int main() {
 	}
 
 	close(STDIN_FILENO);
-	//close(STDOUT_FILENO);
+	close(STDOUT_FILENO);
 	close(STDERR_FILENO);
 
 	int a=0;
